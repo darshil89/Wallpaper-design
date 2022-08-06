@@ -6,7 +6,7 @@
 body{
     width: 100%;
     height: 750px;
-    background: url(https://imgs.search.brave.com/UB1B2CRRYzeBg0rj0lTmkfNw46ABrZShacu1-BOmDLY/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5v/cFpzUXlkV1NwUTFT/OHlYX29kREd3SGFF/SyZwaWQ9QXBp) no-repeat center center/cover;
+    /* background: url(https://imgs.search.brave.com/UB1B2CRRYzeBg0rj0lTmkfNw46ABrZShacu1-BOmDLY/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5v/cFpzUXlkV1NwUTFT/OHlYX29kREd3SGFF/SyZwaWQ9QXBp) no-repeat center center/cover; */
 }
 .container{
     display: flex;
@@ -20,7 +20,7 @@ body{
 .contain{
     display: flex;
     flex-direction: row;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4),-10px -10px 10px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2),-10px -10px 5px rgba(0, 0, 0, 0.2);
 }
 .box{
     border: 2px;
@@ -35,13 +35,13 @@ body{
         font-family: 'Quicksand', sans-serif;
         position: relative;
         top: 10rem;
-        color: aliceblue;
-        transition: font-size 2s;
+        color: rgba(255, 255, 255, 0.8);
+        transition:color 1s;
     }
 
         h1:hover{
             cursor: pointer;
-            font-size: 40px;
+            color:rgb(255, 255, 255);
         }
         a{
             text-decoration: none;
